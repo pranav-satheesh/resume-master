@@ -1,0 +1,305 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[margin, centered]{res}
+\topmargin=-0.5in
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.5in
+\itemsep=0in
+\parsep=0in
+\newsectionwidth{1in}
+\usepackage[pdftex]{graphicx}
+\usepackage{etaremune}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{helvet}
+\usepackage{comment}
+\usepackage{fancyhdr}
+
+\usepackage[colorlinks = true,
+            linkcolor = BrickRed,
+            urlcolor  = BrickRed,
+            citecolor = BrickRed,
+            anchorcolor = BrickRed]{hyperref}
+\setlength{\textwidth}{6.5in} % Text width of the document
+\setlength{\textheight}{720pt}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------\
+\begin{center}
+    \hspace{-\hoffset}
+    \huge {\textcolor{black}{\textbf{Pranav Satheesh}}}
+\end{center}
+
+\vspace{-5mm}
+\moveleft\hoffset\vbox{\hrule width 19cm height 0.5pt}
+\vspace{-8mm}
+\begin{center}
+    \hspace{-\hoffset}
+    \href{mailto:pranavsatheesh17@gmail.com}{pranavsatheesh17@gmail.com} ~\textbullet~ \href{https://pranav-satheesh.github.io/}{pranav-satheesh.github.io} ~\textbullet~ \ Indian Institute of Technology Madras, India
+\end{center}
+\vspace{-7mm}
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{Reserach Interests}
+Gravitational Wave Astronomy and Astrophysics, Post-Newtonian theory and Numerical Relativity, Tests of General Relativity using Gravitational waves
+\\
+\section{Education}
+
+
+\textbf{\href{https://www.iitm.ac.in/}{Indian Institute of Technology Madras, Chennai, India}} \hfill 2017 - 2022 (expected) \\
+\textbf{BS-MS Dual Degree Physics} \\
+CGPA: 9.19/10
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{Research Experience}
+
+
+\textbf{Improving eccentric binary Black hole models by including higher-order modes} \\
+\emph{Mentored by \href{https://physics.iitm.ac.in/ckm}{Dr. Chandra Kant Mishra, IIT Madras} and \href{https://www.icts.res.in/people/prayush-kumar}{Dr. Prayush Kumar, ICTS}} \hfill \hfill Jul 2021 - \textit{Present}
+
+\begin{itemize}
+    \item This work is part of my final year thesis. I'm working on improving a non-spinning eccentric black hole waveform model (ENIGMA) by including effects of Black Hole spins in the waveform.
+\end{itemize}
+
+\textbf{Constructing ready-to-use frequency domain waveform model for eccentric binary black holes including non-quadrupole modes} \\
+\emph{Mentored by \href{https://physics.iitm.ac.in/ckm}{Dr. Chandra Kant Mishra, IIT Madras}}\hfill Aug 2019 - August 2021
+
+\begin{itemize}
+    \item I worked on producing an efficient, ready-to-use frequency domain waveform model for eccentric binary black holes. The waveform also accounts for periastron effects 
+    \item The waveform is produced by applying \emph{Stationary Phase approximation} on time domain waveforms that includes non-quadrupole modes.
+    %\item My work was presented at \href{http://kiw8.org/program/}{8th KAGRA International Workshop}  and \href{https://www.amaldi14.org/}{14th Edoardo Amaldi Conference}.
+\end{itemize}
+
+\textbf{Studying primordial gravitational waves from inflation and reheating phase} \\
+\emph{Mentored by \href{https://physics.iitm.ac.in/~sriram/index.html}{Prof. L. Sriramkumar , IIT Madras}}\hfill Aug 2021 - Present
+\begin{itemize}
+    \item I'm studying the evolution of primordial gravitational waves during the inflationary era data and the reheating phase of the universe. 
+\end{itemize}
+
+
+\textbf{Polarimetric method for predicting gravitational wave polarization of LISA verification binaries} \\
+\emph{Mentored by \href{https://www.ctac.uzh.ch/en/Research/research-groups/Prasenjit-Saha.html}{Prof. Prasenjit Saha, University of Zurich} }\hfill Summer 2020 
+
+\begin{itemize}
+    \item I worked on developing a method utilizing Polarimetry to measure the orientation and inclination of the binary system (HP Lib). Such binaries are sure candidates for the  Laser Interferometer Space Antenna (LISA) mission.
+    \item My work was presented at the \href{https://aas.org/meetings/aas237}{237th American Astronomical Society meeting}.
+\end{itemize}
+
+
+\textbf{Signal detection and parameter estimation using LIGO O1 and O2 data} \\
+\emph{Mentored by \href{https://www.iiserkol.ac.in/~rajesh/}{Prof. Rajesh Nayak , IISER Kolkata}}\hfill Summer 2019
+\begin{itemize}
+    \item The project involved learning the basics of gravitational waves data analysis and parameter estimation using LIGO's publicly available data from O1 and O2 run.
+\end{itemize}
+
+
+
+\begin{comment}
+
+
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	RELEVANT COURSE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+\begin{itemize}[leftmargin=*]
+	\item \textbf{Aditya Vijaykumar}, MV Saketh, Sumit Kumar, Parameswaran Ajith, Tirthankar Roy Choudhury.\\
+	\textit{Probing the cosmological large-scale structure using gravitational-wave observations} \\
+	\textit{(manuscript under LIGO PnP review, to be submitted to arXiv soon)}
+	\\
+	\item \textbf{Aditya Vijaykumar}, Shasvath Kapadia, Parameswaran Ajith.\\
+	\textit{Constraining the time-variation of the Gravitational constant using gravitational-wave observations of binary neutron stars} \\
+	\textit{(manuscript under LIGO PnP review, to be submitted to arXiv soon)}
+	\\
+	\item \textbf{Aditya Vijaykumar}, Nathan Johnson-McDaniel, Rahul Kashyap, Arunava Mukherjee, Parameswaran Ajith.\\	
+	\textit{Constraints on Black Hole Mimickers from the Gravitational-wave Transient Catalog (GWTC) -1 }
+	\\
+	\item Apratim Ganguly, \textbf{Aditya Vijaykumar}, Abhirup Ghosh, Parameswaran Ajith.\\	
+	\textit{Probing General Relativity from the consistency of inspiral and merger-ringdown of Binary Black Holes}
+
+
+\end{itemize}
+
+
+
+\end{comment}
+
+% \section{Papers}
+% \begin{etaremune}
+
+% 	\item Saleem et al. (including \textbf{Aditya Vijaykumar})\\
+% 	\textit{The Science Case for LIGO-India}\\
+% 	\href{https://arxiv.org/abs/2105.01716}{arXiv:2105.01716}.
+
+% 	\item Abbott et al. (LIGO Scientific and Virgo Collaborations, including \textbf{Aditya Vijaykumar})\\
+% 	\textit{Tests of General Relativity with Binary Black Holes from the second LIGO-Virgo Gravitational-Wave Transient Catalog.}\\
+% 	\href{https://arxiv.org/abs/2010.14529}{arXiv:2010.14529}.	
+	
+% 	\item Abbott et al. (LIGO Scientific and Virgo Collaborations, including \textbf{Aditya Vijaykumar})\\
+% 	\textit{	GWTC-2: Compact Binary Coalescences Observed by LIGO and Virgo During the First Half of the Third Observing Run}.\\
+% 	\href{https://arxiv.org/abs/2010.14527}{arXiv:2010.14527}.
+	
+% 	\item 
+% 	\textbf{Aditya Vijaykumar}, M.~V.~S.~Saketh, Sumit Kumar, Parameswaran Ajith, Tirthankar Roy Choudhury\\
+% 	\textit{Probing the large scale structure using gravitational wave observations of binary black holes},\\
+% 	Submitted to \textit{Physical Review Letters}, \href{https://arxiv.org/abs/2005.01111}{arXiv:2005.01111}.\\
+% 	\textit{In press}: \href{https://astrobites.org/2020/05/07/binary-black-holes-tangled-up-in-the-cosmic-web/}{Astrobites}.
+	
+% 	\item 
+% 	\textbf{Aditya Vijaykumar}, Shasvath J. Kapadia, Parameswaran Ajith\\
+% 	\textit{Constraints on the time variation of the gravitational constant using gravitational wave observations of binary neutron stars},\\
+% 	\href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.141104}{\textit{Phys. Rev. Lett}. 126, 141104 (2021)}, \href{https://arxiv.org/abs/2003.12832}{arXiv:2003.12832}.\\
+% 	\textit{In press}: \href{https://phys.org/news/2021-05-constraints-variation-gravitational-constant.html}{phys.org}.
+	
+% 	\item 
+% 	P.~Virtanen {\it et al.} (including \textbf{Aditya Vijaykumar} as \textit{SciPy 1.0 Contributor})\\
+% 	\textit{SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python},\\
+% 	\href{https://www.nature.com/articles/s41592-019-0686-2}{\textit{Nat Methods} 17, 261–272 (2020)},
+% 	\href{https://arxiv.org/abs/1907.10121}{arXiv:1907.10121}.
+% \end{etaremune}
+
+% \section{Seminars and Invited Talks}
+% \begin{itemize}[leftmargin=*]
+% 	 \item \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{\textit{Instituut-Lorentz} for Theoretical Physics, Leiden University}, Leiden, Netherlands, June 2020 (Online)
+% 	 \item \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{The Inter-University Centre for Astronomy and Astrophysics (IUCAA)}, Pune, India, September 2019
+% 	 \item \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{Max Planck Institute for Gravitational Physics}, Hannover, Germany, June 2019
+% \end{itemize}
+\section{Publications}
+\begin{itemize}[leftmargin=*]
+    \item (In preperation) \textbf{Pranav Satheesh},Chandra Kant Mishra\\
+    \textit{Ready-to-use eccentric frequency domain templates with non quadrapole} modes
+    \item (In preperation) Tamal RoyChowdhury, Abhishek Chattaraj, \textbf{Pranav Satheesh}, Chandra Kant Mishra\\
+    \textit{Eccentric time domain and frequency domain Inspiral-Merger-Ringdown hybrid waveforms}
+\end{itemize}
+
+
+
+\section{Conferences}
+
+% \textbf{Contributed talks and posters}\\
+\begin{itemize}[leftmargin=*]
+    \item Tamal RoyChowdhury, Abhishek Chattaraj, \textbf{Pranav Satheesh}, Chandra Kant Mishra, \href{https://www.amaldi14.org/}{\textbf{14th Amaldi 2021, 19-23 July (online)}}, \textit{Elements of modelling binary black holes in eccentric orbits through inspiral, merger and ringdown stages}\\
+    
+    \item Tamal RoyChowdhury, Abhishek Chattaraj, \textbf{Pranav Satheesh}, Chandra Kant Mishra, \href{http://kiw8.org/program/}{\textbf{8th KAGRA International Workshop, 2021}}, \href{http://kiw8.org/data/users/348932af5b3e54a8958255b121ccef68/poster/50_pranavsatheesh-poster.pdf}{\color{black}{\textit{Modelling Frequency Domain Inspiral-merger-ringdown Wave-forms for Eccentric Binary Black Hole Mergers}}}
+    
+    \item \textbf{Pranav Satheesh}, Prasenjit Saha, Hans Martin Schmid , \href{https://aas.org/meetings/aas237}{\textbf{237th American Astronomical Society meet, 2021}}, \href{aas237-aas.ipostersessions.com/Default.aspx?s=79-64-0C-43-B0-53-8B-48-C7-A1-41-CE-DF-A9-70-2A}{\color{black}{\textit{A spectropolarimetric method for predicting the gravitational wave polarization of LISA verification binaries}}}
+    
+    \item  \textbf{Pranav Satheesh}, \href{https://ras.ac.uk/ras-2020-posters}{\textbf{RAS Career Poster Exhibition, 2020}}, \href{https://ras.ac.uk/poster-contest/pranav-satheesh}{\color{black} {\textit{Frequency Domain Gravitational Waveform Modelling for Eccentric Black Hole Binaries}}}\\ 
+    
+
+\end{itemize}   
+% \textbf{Attended meetings}\\
+% \begin{itemize}[leftmargin=*]
+%     \item BitGrav meeting %add poster link
+%     \item CMU meeting
+% \end{itemize}
+
+\section{Scholarships and Awards}
+\begin{itemize}[leftmargin=*]
+
+ \item Selected among top 8 students in India for \href{https://swissnex.org/india/thinkswiss/}{ThinkSwiss Research Scholarship} \hfill 2020
+
+ \item Recepient of the \href{http://www.inspire-dst.gov.in/scholarship.html}{INSPIRE-DST Scholarship for Higher Education}  \hfill 2017 - \textit{Present}
+\end{itemize}
+
+
+\section{Professional Memberships}
+\begin{itemize}[leftmargin=*]
+    \item \textit{Member}, \textbf{LIGO Scientific Collaboration} \hfill 2021-\textit{Present}
+    \item \textit{Undergraduate Member}, \textbf{American Astronomical Society} \hfill 2020-\textit{2021}\\
+\end{itemize}
+
+\section{Teaching Experience}
+\begin{itemize}[leftmargin=*]
+    \item Teaching Assistant, \textbf{Complex Networks} \hfill Aug 2021 - Present \\
+    \emph{Graduate level course} 
+    \item Teaching Assistant, \textbf{Code Astro 2021}   \hfill June 2021 (Online) \\
+    \emph{Software Engineering Workshop for Astronomy supported by the Heising-Simons Foundation.}
+\end{itemize}
+
+
+\section{Schools and Workshops}
+\begin{itemize}[leftmargin=*]
+    \item Participant, \textbf{North American Einstein Toolkit School 2021}, July 2021 (Online)
+    %\item Participant, \textbf{2021 Sagan Exoplanet Summer Virtual Workshop}, NASA Exoplanet Science Institute, California Institute of Technology, July 2021 
+	\item Participant, \textbf{ICTS Summer School on Gravitational Wave Astronomy}, ICTS, Bengaluru, India, July 2021 (Online)
+	\item Participant, \textbf{IPTA Student Workshop}, June 2021 (Online) 
+	\item Participant, ICERM, Brown University (online)
+	\item Participant, Bilby workshop, ICTS 
+	\item Participant, \textbf{Physics of the Early Universe}, ICTS, Bengaluru, India, September 2020 (Online)
+	\item Participant, \textbf{ICTS Summer School on Gravitational Wave Astronomy}, ICTS, Bengaluru, India, May-June 2020 (Online)
+	\item Participant, \textbf{Code Astro 2020}, June 2020 (Online)
+\end{itemize}
+% \section{Outreach Talks}
+% \begin{itemize}[leftmargin=*]
+% 	\item  \textit{The Whats, Whys and Hows of Gravitational-wave Astronomy}, \textbf{BMS College of Engineering, Bengaluru}, November 2019
+% 	\item \textit{Gravitational Waves - A New Tool for Cosmology!} at \textbf{Vigyan Samagam}, Visvesvaraya Industrial and Technological Museum, Bengaluru, India, August 2019
+
+% \end{itemize}
+
+
+
+
+% %----------------------------------------------------------------------------------------
+% %	TECHNICAL SKILLS SECTION
+% %----------------------------------------------------------------------------------------
+
+\section{Relevant Coursework}
+General Relativity and Cosmology, Advanced General Relativity, Classical Field Theory, Advanced Particle Physics, High Energy Physics, Computational Physics, Advanced Statistical Physics, Quantum Mechanics, Classical Mechanics
+
+
+
+\section{Technical \hspace{2mm} Skills}
+\textbf{Programming Languages} - Python, C, C++\\
+\textbf{Softwares} - Mathematica, SAO DS9 \\
+\textbf{Tools/Frameworks} - \LaTeX, Git
+
+
+
+\section{Outreach}
+
+\textbf{Talks}
+\begin{itemize}[leftmargin=*]
+    \item Tutor, \textit{Relativity and Gravitation}, Horizon-IITM Summer School, July 2021
+    \item Tutor, \textit{Black holes and Gravitational Waves}, Horizon-IITM Summer School, July 2021
+    \item Tutor, \textit{Analysis of Globular Clusters Using
+    Colour-Magnitude Diagrams}, Shaastra IITM, Jan 2020
+    \item \textit{Surfing the Gravitational Waves}, Astro week-Horizon IITM, 2019
+\end{itemize}
+
+\textbf{Service}
+\begin{itemize}[leftmargin=*]
+    \item Head, Horizon: The Physics and Astronomy Club of IIT Madras \hfill 2019-2020\\
+   % Head of the student club
+\end{itemize}
+
+
+
+
+%\textbf{Talks}
+% \begin{itemize}
+%     \item GW
+% \end{itemize}
+
+% \section{References}
+% \begin{itemize}[leftmargin=*]
+%  \item Prof. Parameswaran Ajith, ICTS -- \href{mailto:ajith@icts.res.in}{ajith@icts.res.in}
+%  \item Dr. Shasvath Kapadia, ICTS -- \href{mailto:shasvath.kapadia@icts.res.in}{shasvath.kapadia@icts.res.in}
+%  \item Dr. Sumit Kumar, AEI Hannover -- \href{mailto:sumit.kumar@aei.mpg.de}{sumit.kumar@aei.mpg.de}
+%  \item Prof. Bala Iyer, ICTS -- \href{mailto:bala.iyer@icts.res.in}{bala.iyer@icts.res.in}
+% \end{itemize}
+
+\end{resume}
+\end{document}
